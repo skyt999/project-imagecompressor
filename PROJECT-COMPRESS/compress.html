@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <style>
+  input[type="file"]{
+    border-radius: 18px;
+    background-color:#0bdfee;
+    padding:12px 40px;
+    border: none;
+    margin-right: 10px;
+  }
+  input[type=file]:hover {
+    background-color: #3bb3d4;
+  }
+
+
+
+ .header img{
+    float: left;
+    width: 130px;
+    height: 130px;
+    background:none;
+}
+
+.header h1{
+    padding: 50px;
+    width:100%;
+    text-align:justify;
+    font-size: 1cm;
+    background: #545454;
+    background-position-y: top;
+    min-height: 80px;
+    color:white;
+
+}
+  </style>
+    <header>
+      <div class="header">
+          <img src ="logo.png.png" alt="" style="width:150px;height:150px;padding: 5px;">
+          <h1>Compresshub.com</h1>
+        </div>
+     
+  </header>
+
+    <h1>Compress and Resize an Image</h1>
+    <p>
+      Upload an image and compress it or use the following demo image
+    </p>
+    <p> please refresh it before compress</p>
+    <input id="upload" type="file" accept="image/*" />
+    <div>
+      <h2>Original Image</h2>
+      <img
+        style="margin-top: 5px;"
+        id="originalImage"
+        src=""
+        crossorigin="anonymous"
+      />
+    </div>
+    <div style="margin-top: 5px;">
+      <span>Resizing: </span>
+      <input type="range" min="1" max="100" value="80" id="resizingRange" />
+    </div>
+    <div style="margin-top: 5px; margin-left: 8px;">
+      <span>Quality: </span>
+      <input type="range" min="1" max="100" value="80" id="qualityRange" />
+    </div>
+    <h2>Compressed Image</h2>
+    <div><b>Size:</b> <span id="size"></span></div>
+    <img id="compressedImage" />
+  
+    <script src="compress.js"></script>
+
+   <h3>click right click to download !!</h3>
+  </body>
+</html>

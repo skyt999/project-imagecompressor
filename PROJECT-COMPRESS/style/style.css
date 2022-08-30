@@ -1,0 +1,150 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+body{
+    background-color: whitesmoke;
+    margin:0px;
+    margin-top: 0%;
+    position:absolute;
+    padding-bottom: 20px;     /* so that footer must be in bottom*/
+    min-height:fit-content;
+}
+
+.header img{
+    float: left;
+    width: 130px;
+    height: 130px;
+    background:none;
+}
+
+.header h1{
+    padding: 50px;
+    text-align:justify;
+    font-size: 1cm;
+    background: #545454;
+    background-position-y: top;
+    min-height: 150px;
+    color:white;
+
+}
+nav{
+    background-color:#0bdfee;
+   
+    overflow: hidden;
+    width:100%;
+    
+}
+
+nav a{
+    display: ruby-base;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 20px;
+    float :left;
+    
+}
+
+section{
+    text-align:center;
+    padding-top:40px ;
+    height: 100px;
+}
+ 
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 6px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]{
+    border-radius: 18px;
+    background-color:#0bdfee;
+    padding:12px 40px;
+    border: none;
+    margin-right: 10px;
+  }
+  input[type=submit]:hover {
+    background-color: #3bb3d4;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33%; 
+    padding: 20px;
+    height: 10cm; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+/*feedback forum style*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6 px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  .container {
+    border-radius: 15px;
+    background-color: #0bdfee;
+    padding: 10px;
+  }
+
+  .column1 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+    margin-left: 20px;
+    padding: 40px;
+  }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .footer {
+   position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:24px;
+    background-color: #545454;
+    color:whitesmoke;
+    text-align: center;
+    padding-top:0px;
+ }
+ 

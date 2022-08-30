@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sty.css" />
+    <title>Resize Images Before Upload</title>
+    <style>
+    *{
+      box-sizing: border-box;
+      list-style: none;
+  
+      }
+  body{margin:0px;
+      margin-top:0%;
+     }
+      
+  
+  .header img{
+      float: left;
+      width: 130px;
+      height: 130px;
+      background: none;
+  }
+  
+  .header h1{
+      padding: 40px;
+      text-align:justify;
+      background: #545454;
+      color:white;
+      }
+
+     input[type="file"]{
+    border-radius: 18px;
+    background-color:#0bdfee;
+    padding:12px 40px;
+    border: none;
+   
+  }
+  input[type=file]:hover {
+    background-color: #3bb3d4;
+  }
+
+  .button{
+    border-radius: 18px;
+    background-color:#0bdfee;
+    padding:12px 40px;
+    border: none;
+  }
+
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+          <img src ="logo.png.png" alt="" style="width:130px;height:130px;padding: 5px;">
+          <h1>Compresshub.com</h1>
+         
+        </div>
+     
+  </header>
+  <h3>Here is the compressor!!</h3>
+   <!--for photos-->
+  <h2><b>1. for uploading photos</b> </h2>
+
+    <input type="file" id="upload" accept=".jpg, .jpeg, .png" />
+    <br>
+    <br>
+    
+    <button  onclick="process()"> Process</button>
+    
+      <img id="input" />
+    </div>
+    <div>
+      <img id="output" />
+    </div>
+    <h3>click right click to download!!</h3>
+    <script src="photosjee.js"></script>
+ 
+    <!--2.for signature-->
+    <h2><b>1. for uploading signature--</b> </h2>
+
+    <input type="file" id="upload" accept=".jpg, .jpeg, .png" />
+    <br>
+    <br>
+    
+    <button  onclick="process()"> Process</button>
+    
+      <img id="input" />
+    </div>
+    <div>
+      <img id="output" />
+    </div>
+    <h3>click right click to download!!</h3>
+  
+
+  </body>
+</html>

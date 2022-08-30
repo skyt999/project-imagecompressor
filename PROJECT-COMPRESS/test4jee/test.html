@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sty.css" />
+    <title>Resize Images Before Upload</title>
+    <style>
+    *{
+      box-sizing: border-box;
+      list-style: none;
+  
+      }
+  body{margin:0px;
+      margin-top:0%;
+     }
+      
+  
+  .header img{
+      float: left;
+      width: 130px;
+      height: 130px;
+      background: none;
+  }
+  
+  .header h1{
+      padding: 40px;
+      text-align:justify;
+      background: #545454;
+      color:white;
+      }
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+          <img src ="img/logo.png.png" alt="" style="width:130px;height:130px;padding: 5px;">
+          <h1>Compresshub.com</h1>
+         
+        </div>
+     
+  </header>
+  <h3>Here is the compressor</h3>
+
+    <input type="file" id="upload" accept=".jpg, .jpeg, .png" />
+    <button onclick="process()">Process</button>
+   
+      <img id="input" />
+    </div>
+    <div>
+      <img id="output" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  *{
+    box-sizing: border-box;
+    list-style: none;
+
+    }
+body{
+    margin:0px;
+   }
+
+.header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+
+.header h1{
+    padding: 50px;
+    text-align:justify;
+    background: #545454;
+    color:white;
+    }
+
+    input[type="submit"]{
+    border-radius: 18px;
+    background-color:#00c2cb;
+    padding:12px 40px;
+    border: none;
+   
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img src ="logo.png.png" alt="" style="width:130px;height:130px;padding: 5px;">
+            <h1>Compresshub.com</h1>
+           
+          </div>
+       
+    </header>
+    <h3>Here is the compressor</h3>
+
+    <div class="row">
+   
+        <div class="column" style="background-color:white;">
+        
+          <h2>JEE MAINS</h2>
+          <input type = "submit" input value="jee mains" button onclick="document.location='img/jeemains.html'"></button>
+          
+        </div>
+    
+    
+        <div class="column" style="background-color:white;">
+            
+          <h2>WBJEE</h2>
+          <input type = "submit" input value="WBJEE" button onclick="document.location='www.youtube.com'"></button>
+        </div>
+    
+        <div class="column" style="background-color:white;">
+        
+          <h2>COMEDK</h2>
+          <input type = "submit" input value="COMEDK" button onclick="document.location='www.youtube.com'"></button>
+        </div>
+      </div>
+</body>
+</html>
